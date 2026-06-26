@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data files (keep raw dataset in repository for PoC but ignore if local user environment creates lock files)
+.DS_Store
+.ipynb_checkpoints/
